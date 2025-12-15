@@ -6,7 +6,9 @@ nlp_configuration:
   models:
     - lang_code: en
       model_name: en_core_web_lg
-
+    - lang_code: fr
+      model_name: fr_core_news_md
+      
   ner_model_configuration:
     model_to_presidio_entity_mapping:
       PER: PERSON
