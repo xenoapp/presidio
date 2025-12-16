@@ -7,7 +7,7 @@ nlp_configuration:
     - lang_code: en
       model_name: en_core_web_lg
     - lang_code: fr
-      model_name: fr_core_news_md
+      model_name: fr_core_news_lg
       
   ner_model_configuration:
     model_to_presidio_entity_mapping:
